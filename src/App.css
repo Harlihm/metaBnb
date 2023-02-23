@@ -106,12 +106,16 @@ align-items: center;
 padding: 10px 100px;
 gap: 263px;
 
-width:100vw;
+width:85vw;
 height: 70px;
 left: 0px;
 top: 742px;
 
-
 background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
 
+}
+
+.adss{
+    display: flex;
+    align-items: center;
 }

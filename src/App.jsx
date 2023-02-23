@@ -3,6 +3,7 @@ import Navbar from "./assets/Navbar"
 import './App.css'
 import Head from './assets/Head'
 import Ads from './assets/Ads';
+import More from './assets/More';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
           <Navbar/>
           <Head/>
           <Ads/>
+          <More/>
           </div>
     </div>
   )
