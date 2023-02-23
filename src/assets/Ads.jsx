@@ -1,7 +1,7 @@
-import React from 'react'
-import mb from '../images/group5.png'
-import meta from '../images/group4.png'
-import opensea from '../images/group3.png'
+import React from 'react';
+import mb from '../images/group5.png';
+import meta from '../images/group4.png';
+import opensea from '../images/group3.png';
 
 
 const Ads = () => {
