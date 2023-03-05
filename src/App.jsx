@@ -4,6 +4,7 @@ import './App.css'
 import Head from './assets/Head'
 import Ads from './assets/Ads';
 import More from './assets/More';
+import Learn from './assets/Learn';
 // import Mot from "./assets/Mottttt";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
           <Ads/>
           {/* <Mot/> */}
           <More/>
+          <Learn/>
           </div>
     </div>
   )
