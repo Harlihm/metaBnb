@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./Connectwallet.css"
 import metamasklogo from "../images/image66.png";
 import wallconlogo from "../images/image69.png";
-import {AiOutlineArrowRight} from "react-icons/ai"
+// import {AiOutlineArrowRight} from "react-icons/ai"
 import {RxCross1} from "react-icons/rx";
 
 
@@ -38,7 +38,7 @@ setModal(!modal);
                                     MetaMask
                                 </a>
                                </div>
-                               <button> <AiOutlineArrowRight/></button>
+                               <button> &gt;</button>
 
 
                             </div>
@@ -49,7 +49,7 @@ setModal(!modal);
                                     Walletconnect
                                 </a>
                                 </div>
-                                 <button><AiOutlineArrowRight/></button>
+                                 <button>&gt;</button>
                             </div>
                         </div>
                         </div>
