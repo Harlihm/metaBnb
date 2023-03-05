@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./Connectwallet.css"
 import metamasklogo from "../images/image66.png";
 import wallconlogo from "../images/image69.png";
-import {RxCross1} from "react-icons/rx";
+// import {RxCross1} from "react-icons/rx";
 
 
 const Connectwallet = () => {
@@ -24,7 +24,7 @@ setModal(!modal);
                     <div className="modalconent">
                         <div className="conn">
                             <p>Connect Wallet</p>
-                            <button onClick={toggleModal}> <RxCross1/></button>
+                            <button onClick={toggleModal}> X </button>
                         </div>
                         <span></span>
                         <div className='wallswalls'>
