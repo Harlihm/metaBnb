@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import "./Connectwallet.css"
 import metamasklogo from "../images/image66.png";
 import wallconlogo from "../images/image69.png";
-// import {AiOutlineArrowRight} from "react-icons/ai"
 import {RxCross1} from "react-icons/rx";
 
 
