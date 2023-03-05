@@ -4,6 +4,7 @@ import './App.css'
 import Head from './assets/Head'
 import Ads from './assets/Ads';
 import More from './assets/More';
+// import Mot from "./assets/Mottttt";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
           <Navbar/>
           <Head/>
           <Ads/>
+          {/* <Mot/> */}
           <More/>
           </div>
     </div>
