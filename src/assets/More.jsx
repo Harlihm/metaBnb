@@ -35,7 +35,7 @@ const More = () => {
                 <p className='p2'>available for 2weeks stay</p>
               </div>
               </div>
-             <img src={Frame59528} alt="" />
+             <img className='star' src={Frame59528} alt="" />
         </div>
      </div>
      <div className='BoxContainerWrapper'>
@@ -53,7 +53,7 @@ const More = () => {
                 <p className='p2'>available for 2weeks stay</p>
               </div>
               </div>
-             <img src={Frame59528} alt="" />
+             <img className='star' src={Frame59528} alt="" />
         </div>
      </div>
      <div className='BoxContainerWrapper'>
@@ -71,7 +71,7 @@ const More = () => {
                 <p className='p2'>available for 2weeks stay</p>
               </div>
               </div>
-             <img src={Frame59528} alt="" />
+             <img className='star' src={Frame59528} alt="" />
         </div>
      </div>
      <div className='BoxContainerWrapper'>
@@ -89,7 +89,7 @@ const More = () => {
                 <p className='p2'>available for 2weeks stay</p>
               </div>
               </div>
-             <img src={Frame59528} alt="" />
+             <img className='star' src={Frame59528} alt="" />
         </div>
      </div>
      <div className='BoxContainerWrapper'>
@@ -107,7 +107,7 @@ const More = () => {
                 <p className='p2'>available for 2weeks stay</p>
               </div>
               </div>
-             <img src={Frame59528} alt="" />
+             <img className='star' src={Frame59528} alt="" />
         </div>
      </div>
      <div className='BoxContainerWrapper'>
@@ -125,7 +125,7 @@ const More = () => {
                 <p className='p2'>available for 2weeks stay</p>
               </div>
               </div>
-             <img src={Frame59528} alt="" />
+             <img className='star' src={Frame59528} alt="" />
         </div>
      </div>  <div className='BoxContainerWrapper'>
         <div className='BoxContainer'>
@@ -142,12 +142,12 @@ const More = () => {
                 <p className='p2'>available for 2weeks stay</p>
               </div>
               </div>
-             <img src={Frame59528} alt="" />
+             <img className='star' src={Frame59528} alt="" />
         </div>
      </div>  <div className='BoxContainerWrapper'>
         <div className='BoxContainer'>
               <div className='BoxImgContainer'>
-               <img src={image158} alt="" width={260} height={250}/>
+               <img  src={image158} alt="" width={260} height={250}/>
               </div>
               <div className='BoxText'>
               <div className='boxText1'>
@@ -159,7 +159,7 @@ const More = () => {
                 <p className='p2'>available for 2weeks stay</p>
               </div>
               </div>
-             <img src={Frame59528} alt="" />
+             <img  className='star' src={Frame59528} alt="" />
         </div>
      </div>
      

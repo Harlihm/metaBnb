@@ -1,0 +1,168 @@
+@media screen and  (max-width:1450px) {
+   
+    .headwrapper .headcontent h1 {
+        font-size: 53px;
+    }
+
+    .headcontent div input {
+        width: 300px;
+        height: 54px;
+    }
+    /* .learn {
+        width: auto;
+    } */
+}
+@media screen and  (max-width:1199px) {
+
+    /* :root{
+        width: 100vw;
+    } */
+  .appContainer{
+    width: 1315px;
+  }
+    .navwrapper{
+        margin: 1.5rem 5rem;
+    }
+    .headwrapper .headcontent h1 {
+        font-size: 53px;
+    }
+
+    .headcontent div input {
+        width: 300px;
+        height: 54px;
+    }
+    .headwrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5rem 4rem;
+    }
+    .learn {
+        width: auto;
+    }
+    .adsWrapper{
+        width: auto;
+    }
+    .learnImg {
+        right: 29rem;
+        transform: scale(0.9);
+    
+  }
+}
+  
+  @media screen and  (max-width:991px) {
+   .headwrapper{
+    flex-direction: column;
+   }
+   .headcontent div input {
+    width: 417px;
+}
+.headimage {
+    display: flex;
+    transform:initial;
+    margin: 4rem 0px;
+}
+  }
+  
+  @media screen and  (max-width:767px) {
+   
+  }
+  
+  
+  
+  
+  @media screen and (max-width:530px) {
+  /* .navwrapper{
+    margin: 0;
+  } */
+  .headcontent{
+    
+    transform: scale(1.4);
+    margin-bottom: 3rem;
+
+  }
+  .headimage{
+    margin-bottom: 8rem;
+  }
+  .learn {
+    /* height: 669px; */
+    justify-content: center;
+
+}
+/* .learn p{
+    font-size: 34px;
+    max-width: 63rem;
+    line-height: 47px;
+
+} */
+
+/* .learn button{
+    Width: 254px;
+    Height: 90px;
+}
+.learn button p{
+line-height: initial;
+font-size: initial;
+} */
+
+.learnContent{
+    /* max-width: initial; */
+    /* margin-left: initial; */
+     /* max-height: 146px; */
+     transform: scale(1.9);
+
+}
+.learnImg {
+    display: none;
+
+}
+.Nfts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.BoxContainerWrapper {
+    height: 36rem;
+    width: 30rem;
+    left: 0px;
+    top: 0px;
+    border-radius: 22px;
+    border: 3px solid ;
+  }
+
+.BoxImgContainer img{
+width: 24rem;
+height: 24rem;  }
+
+.boxText1 .p1 {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 0px;
+}
+.boxText1 .p2 {
+    font-size: 27px;
+    line-height: 0px;
+    color: #434343;
+}
+.boxText2 {
+    transform: scale(1.9) translate(40px, 0px);
+    display: flex;
+    flex-direction: row;
+    max-width: 15rem;
+    justify-content: space-between;
+    /* height: 0px; */
+}
+
+
+.star {
+    transform: scale(1.8) translate(17px, 6px);
+}
+/* .boxText2 .p2 {
+    font-size: 27px;
+    line-height: 0px;
+    color: #434343;
+} */
+
+
+}

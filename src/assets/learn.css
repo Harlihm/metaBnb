@@ -1,7 +1,7 @@
 .learn{
     box-sizing: border-box;
-position: absolute;
-width: 100vw;
+/* position: absolute; */
+/* width: 100vw; */
 height: 774px;
 left: 0px;
 top: 1794px;
@@ -58,6 +58,11 @@ background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
+}
+.learnImg{
+    bottom: 25rem;
+    position: relative;
+    right: 32rem;
 }
 .image8{
     position: absolute;
