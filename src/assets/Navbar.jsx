@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Connectwallet from './Connectwallet';
 // import metaimg from "../../public/images/"
+import {FiMenu} from "react-icons/fi"
 
 const Navbar = () => {
+const [nav ,setNav] =useState(false);
+
+const toggleNav =()=>{
+  setNav(!nav);
+};
+
   return (
     <div>
       <div className="navwrapper">
@@ -42,8 +49,31 @@ const Navbar = () => {
 
             </ul>
         </div>
-        <div className="navbutton">
+        
+        <div className='navbtemu'>
+      
+          <button onClick={toggleNav} className='nav navhide'>
+              <FiMenu/>
+          </button>
+
+          {nav && <div className='nav'>
+             <div className="navcontent2">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Place to stay</a></li>
+              <li><a href="">NFTs</a></li>
+              <li><a href="">Community</a></li>
+
+            </ul> 
+           <div className="navbutton">
             <Connectwallet/>
+        </div>
+        </div>
+       
+       
+          </div> 
+           }
+            
         </div>
       </div>
     </div>

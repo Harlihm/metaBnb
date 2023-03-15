@@ -1,7 +1,5 @@
 import React from 'react'
-import "./learn.css"
 
-import '../AppResponsiveness.css'
 
 import image7 from "../images/image7.png"
 import image8 from "../images/image8.png"

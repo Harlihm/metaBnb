@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from "./assets/Navbar"
 import './App.css'
-import './AppResponsiveness.css'
 
 import Head from './assets/Head'
 import Ads from './assets/Ads';
